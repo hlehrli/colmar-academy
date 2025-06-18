@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: left;
+}
+.logo h2 {
+    color: gray;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: right;
+}
+header {
+    height: 64px;
+}
+.logo img {
+    margin: 24px;
+}
+.navigation {
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    padding: 24px;
+}
+.navigation a {
+    padding: 16px;
+    width: 25%;
+    transition: color 100ms linear;
+}
+.navigation a:hover {
+    color: lightskyblue;
+}
