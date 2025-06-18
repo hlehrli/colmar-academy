@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.logo {
+header .logo {
     display: inline-block
 }
 .logo h1 {
@@ -41,4 +41,7 @@ header {
 }
 .navigation a:hover {
     color: lightskyblue;
+}
+header .desktop {
+    display: flex;
 }
