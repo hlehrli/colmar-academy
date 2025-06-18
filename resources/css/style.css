@@ -21,14 +21,15 @@ header {
 }
 .logo img {
     padding: 24px;
-    display: inline-block;
+    display: inline;
+    height: 34px;
 }
 .navigation {
     text-align: right;
     color: black;
     font-size: 24px;
     padding: 24px;
-    display: inline-block;
+    display: inline;
 }
 .navigation a {
     padding: 16px;
