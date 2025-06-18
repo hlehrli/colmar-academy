@@ -3,8 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo {
-    display: flex;
-    justify-content: flex-start;
+    display: inline-block
 }
 .logo h1 {
     color: black;
@@ -33,8 +32,7 @@ header {
     color: black;
     font-size: 24px;
     padding: 24px;
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block
 }
 .navigation a {
     padding: 16px;
