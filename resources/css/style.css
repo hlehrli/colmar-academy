@@ -7,24 +7,28 @@ body {
     font-weight: bold;
     font-size: 32px;
     text-align: left;
+    display: inline;
 }
 .logo h2 {
     color: gray;
     font-size: 32px;
     font-weight: normal;
-    text-align: right;
+    text-align: left;
+    display: inline;
 }
 header {
     height: 64px;
 }
 .logo img {
-    margin: 24px;
+    padding: 24px;
+    display: inline-block;
 }
 .navigation {
     text-align: right;
     color: black;
     font-size: 24px;
     padding: 24px;
+    display: inline-block;
 }
 .navigation a {
     padding: 16px;
