@@ -2,6 +2,10 @@ body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
 .logo h1 {
     color: black;
     font-weight: bold;
@@ -29,7 +33,8 @@ header {
     color: black;
     font-size: 24px;
     padding: 24px;
-    display: inline;
+    display: flex;
+    justify-content: flex-end;
 }
 .navigation a {
     padding: 16px;
