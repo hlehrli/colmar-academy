@@ -11,13 +11,18 @@ body {
     float: left;
     align-items: center;
 }
+.logo img {
+    height: 32px;
+}
 .logo h1 {
     color: black;
     font-weight: bold;
+    font-size: 32px;
 }
 .logo h2 {
     color: gray;
     font-weight: normal;
+    font-size: 32px;
 }
 header {
     display: flex;
@@ -36,6 +41,7 @@ header {
     color: black;
     font-size: 24px;
     padding-right: 24px;
+    display: inline;
 }
 .navigation nav {
     display: flex;
