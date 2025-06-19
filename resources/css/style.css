@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 .logo img {
-    height: 32px;
+    height: 40px;
 }
 .logo h1 {
     color: black;
@@ -21,7 +21,7 @@ body {
 }
 .logo h2 {
     color: gray;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 32px;
 }
 header {
@@ -41,12 +41,11 @@ header {
     color: black;
     font-size: 24px;
     padding-right: 24px;
-    display: inline;
 }
 .navigation nav {
     display: flex;
     padding-left: 16px;
-    text-align: right;
+    text-align: center;
 }
 .navigation a {
     width: 25%;
