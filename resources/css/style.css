@@ -63,7 +63,7 @@ header {
     margin: 32px 24px 32px 24px;
 }
 .banner img {
-    flex-basis: 60%;
+    width: 60%;
 }
 .banner-text h1 {
     color: black;
@@ -85,4 +85,33 @@ header {
     font-size: 12px;
     text-align: center;
     align-content: center;
+}
+.second-section {
+    background-color: white;
+    height: 600px;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+.practising img {
+    width: 60%;
+}
+.practising {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.practising h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 24px;
+}
+.practising h4 {
+    color: black;
+    font-size: 10px;
+}
+.practising p {
+    color: black;
+    font-size: 10px;
 }
