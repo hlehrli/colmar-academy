@@ -112,9 +112,11 @@ header {
 }
 .practising h4 {
     color: black;
-    font-size: 10px;
+    font-size: 30px;
+    padding-top: 24px;
 }
 .practising p {
     color: black;
-    font-size: 10px;
+    font-size: 30px;
+    padding-top: 24px;
 }
