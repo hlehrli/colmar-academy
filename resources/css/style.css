@@ -87,7 +87,8 @@ header {
     color: white;
     font-size: 12px;
     text-align: center;
-    align-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .second-section {
     background-color: white;
