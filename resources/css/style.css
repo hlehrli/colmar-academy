@@ -96,6 +96,8 @@ header {
     margin-top: 32px;
     margin-left: 24px;
     margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
 }
 .practising img {
     width: 60%;
@@ -121,4 +123,12 @@ header {
     color: black;
     font-size: 30px;
     padding-top: 24px;
+}
+.articles {
+    width: 40%;
+    display: inline;
+}
+.articles img {
+    height: auto;
+    width: 35%;
 }
