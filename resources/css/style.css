@@ -117,15 +117,16 @@ header {
 .practising h4 {
     color: gray;
     font-size: 30px;
-    padding-top: 24px;
+    padding-bottom: 32px;
 }
 .practising p {
     color: gray;
     font-size: 30px;
-    padding-top: 24px;
+    padding-bottom: 32px;
 }
 .articles {
     width: 40%;
+    margin-right: 24px;
 }
 .articles img {
     height: auto;
@@ -135,6 +136,8 @@ header {
     display: flex;
     flex-direction: row;
     align-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .orientation h2 {
     color: gray;
@@ -146,14 +149,25 @@ header {
 }
 .orientation p{
     color: gray;
+}
+.orientation img {
+    padding: 16px;
+}
+.orientation a{
     transition: color 100ms linear;
 }
-.orientation p:hover {
-    color: blue;
+.orientation a:hover {
+    color: purple;
+}
+.orientation-text {
+    display: flex;
+    flex-direction: column;
 }
 .campus {
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .campus h2 {
     color: gray;
@@ -165,14 +179,26 @@ header {
 }
 .campus p{
     color: gray;
+}
+.campus img {
+    padding: 16px;
+}
+.campus a{
     transition: color 100ms linear;
 }
-.campus p:hover {
-    color: blue;
+.campus a:hover {
+    color: purple;
+}
+.campus-text {
+    display: flex;
+    flex-direction: column;
 }
 .guest-lecture {
     display: flex;
     flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: lightgray;
 }
 .guest-lecture h2 {
     color: gray;
@@ -184,8 +210,17 @@ header {
 }
 .guest-lecture p{
     color: gray;
+}
+.guest-lecture img {
+    padding: 16px;
+}
+.guest-lecture a{
     transition: color 100ms linear;
 }
-.guest-lecture p:hover {
-    color: blue;
+.guest-lecture a:hover {
+    color: purple;
+}
+.guest-lecture-text {
+    display: flex;
+    flex-direction: column;
 }
