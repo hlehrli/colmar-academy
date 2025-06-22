@@ -40,12 +40,16 @@ header {
     color: black;
     font-size: 24px;
     padding-right: 24px;
-    float: inline-end;
+}
+.navigation ul {
+    list-style-type: none;
+}
+.navigation li {
+    float: right;
 }
 .navigation nav {
     display: flex;
     padding-left: 16px;
-    text-align: center;
 }
 .navigation a {
     width: 25%;
