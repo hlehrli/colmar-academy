@@ -68,12 +68,12 @@ header {
     padding: 32px 24px 32px 24px;
 }
 .banner-text h1 {
-    color: black;
+    color: gray;
     font-size: 50px;
     font-weight: bold;
 }
 .banner-text h3 {
-    color: black;
+    color: gray;
     font-size: 30px;
     font-weight: normal;
 }
@@ -111,24 +111,81 @@ header {
 .practising h2 {
     font-size: 50px;
     font-weight: bold;
-    color: black;
+    color: gray;
     padding-bottom: 24px;
 }
 .practising h4 {
-    color: black;
+    color: gray;
     font-size: 30px;
     padding-top: 24px;
 }
 .practising p {
-    color: black;
+    color: gray;
     font-size: 30px;
     padding-top: 24px;
 }
 .articles {
     width: 40%;
-    display: inline;
 }
 .articles img {
     height: auto;
     width: 35%;
+}
+.orientation {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.orientation h2 {
+    color: gray;
+    font-weight: bold;
+}
+.orientation h3 {
+    color: gray;
+    font-weight: normal;
+}
+.orientation p{
+    color: gray;
+    transition: color 100ms linear;
+}
+.orientation p:hover {
+    color: blue;
+}
+.campus {
+    display: flex;
+    flex-direction: row;
+}
+.campus h2 {
+    color: gray;
+    font-weight: bold;
+}
+.campus h3 {
+    color: gray;
+    font-weight: normal;
+}
+.campus p{
+    color: gray;
+    transition: color 100ms linear;
+}
+.campus p:hover {
+    color: blue;
+}
+.guest-lecture {
+    display: flex;
+    flex-direction: row;
+}
+.guest-lecture h2 {
+    color: gray;
+    font-weight: bold;
+}
+.guest-lecture h3 {
+    color: gray;
+    font-weight: normal;
+}
+.guest-lecture p{
+    color: gray;
+    transition: color 100ms linear;
+}
+.guest-lecture p:hover {
+    color: blue;
 }
