@@ -49,6 +49,7 @@ header {
 }
 .navigation li {
     float: right;
+    margin: 16px;
 }
 .navigation a {
     width: 25%;
