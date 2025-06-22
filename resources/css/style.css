@@ -43,18 +43,18 @@ header {
 }
 .navigation ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
 }
 .navigation li {
     float: right;
-}
-.navigation nav {
-    display: flex;
-    padding-left: 16px;
 }
 .navigation a {
     width: 25%;
     transition: color 100ms linear;
     display: inline;
+    font-size: 20px;
 }
 .navigation a:hover {
     color: lightskyblue;
@@ -100,6 +100,7 @@ header {
     margin-top: 32px;
     margin-left: 24px;
     margin-bottom: 32px;
+    margin-right: 24px;
     display: flex;
     flex-direction: row;
 }
@@ -130,7 +131,6 @@ header {
 }
 .articles {
     width: 40%;
-    margin-right: 24px;
 }
 .articles img {
     height: auto;
