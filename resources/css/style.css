@@ -231,3 +231,14 @@ header {
     display: flex;
     flex-direction: column;
 }
+.third-section {
+    background-color: lightgray;
+}
+.third-section h1 {
+    color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 50px;
+    font-weight: bold;
+    align-content: center;
+}
